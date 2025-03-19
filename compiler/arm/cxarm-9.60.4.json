@@ -1,5 +1,5 @@
 {
-  "id": "compilers/iar/cxarm",
+  "id": "compiler/arm/cxarm",
   "version": "9.60.4",
   "description": "The IAR Build Tools for Arm",
   "summary": "GCC compiler for ARM CPUs.",

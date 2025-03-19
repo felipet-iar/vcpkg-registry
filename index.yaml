@@ -2,14 +2,14 @@ items: [ compiler/arm/cxarm-9.60.4.json ]
 indexes:
   IdentityKey/id:
     keys:
-      compilers/iar/cxarm: [ 0 ]
+      compiler/arm/cxarm: [ 0 ]
     words:
-      compilers: [ 0 ]
-      compilers/iar: [ 0 ]
-      compilers/iar/cxarm: [ 0 ]
+      arm: [ 0 ]
+      arm/cxarm: [ 0 ]
+      compiler: [ 0 ]
+      compiler/arm: [ 0 ]
+      compiler/arm/cxarm: [ 0 ]
       cxarm: [ 0 ]
-      iar: [ 0 ]
-      iar/cxarm: [ 0 ]
   SemverKey/version:
     keys:
       9.60.4: [ 0 ]
