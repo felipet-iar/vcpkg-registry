@@ -15,11 +15,11 @@ indexes:
       9.60.4: [ 0 ]
   StringKey/summary:
     keys:
-      GCC compiler for ARM CPUs.: [ 0 ]
+      IAR compiler for ARM CPUs.: [ 0 ]
     words:
       ARM: [ 0 ]
       CPUs: [ 0 ]
       CPUs.: [ 0 ]
-      GCC: [ 0 ]
+      IAR: [ 0 ]
       compiler: [ 0 ]
       for: [ 0 ]
