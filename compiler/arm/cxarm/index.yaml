@@ -1,0 +1,25 @@
+items: [ cxarm-9.60.4.json ]
+indexes:
+  IdentityKey/id:
+    keys:
+      compiler/arm/cxarm: [ 0 ]
+    words:
+      arm: [ 0 ]
+      arm/cxarm: [ 0 ]
+      compiler: [ 0 ]
+      compiler/arm: [ 0 ]
+      compiler/arm/cxarm: [ 0 ]
+      cxarm: [ 0 ]
+  SemverKey/version:
+    keys:
+      9.60.4: [ 0 ]
+  StringKey/summary:
+    keys:
+      IAR compiler for ARM CPUs.: [ 0 ]
+    words:
+      ARM: [ 0 ]
+      CPUs: [ 0 ]
+      CPUs.: [ 0 ]
+      IAR: [ 0 ]
+      compiler: [ 0 ]
+      for: [ 0 ]
