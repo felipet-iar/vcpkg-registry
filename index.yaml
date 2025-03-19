@@ -1,4 +1,4 @@
-items: [ compiler/arm/cxarm-9.60.4.json ]
+items: [ compiler/arm/cxarm/cxarm-9.60.4.json ]
 indexes:
   IdentityKey/id:
     keys:
