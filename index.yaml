@@ -1,7 +1,7 @@
 items:
   [
-    compiler/cxarm/cxarm-base-9.60.4.json,
-    compiler/cxarm/cxarm-minimal-9.60.4.json
+    compiler/cxarm-base/cxarm-base-9.60.4.json,
+    compiler/cxarm-minimal/cxarm-minimal-9.60.4.json
   ]
 indexes:
   IdentityKey/id:
