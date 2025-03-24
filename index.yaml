@@ -1,22 +1,33 @@
-items: [ compiler/cxarm/cxarm-9.60.4.json ]
+items:
+  [
+    compiler/cxarm/cxarm-base-9.60.4.json,
+    compiler/cxarm/cxarm-minimal-9.60.4.json
+  ]
 indexes:
   IdentityKey/id:
     keys:
-      compiler/cxarm: [ 0 ]
+      compiler/cxarm-base: [ 0 ]
+      compiler/cxarm-minimal: [ 1 ]
     words:
-      compiler: [ 0 ]
-      compiler/cxarm: [ 0 ]
-      cxarm: [ 0 ]
+      base: [ 0 ]
+      compiler: [ 0, 1 ]
+      compiler/cxarm: [ 0, 1 ]
+      compiler/cxarm-base: [ 0 ]
+      compiler/cxarm-minimal: [ 1 ]
+      cxarm: [ 0, 1 ]
+      cxarm-base: [ 0 ]
+      cxarm-minimal: [ 1 ]
+      minimal: [ 1 ]
   SemverKey/version:
     keys:
-      9.60.4: [ 0 ]
+      9.60.4: [ 0, 1 ]
   StringKey/summary:
     keys:
-      IAR compiler for ARM CPUs.: [ 0 ]
+      IAR compiler for ARM CPUs.: [ 0, 1 ]
     words:
-      ARM: [ 0 ]
-      CPUs: [ 0 ]
-      CPUs.: [ 0 ]
-      IAR: [ 0 ]
-      compiler: [ 0 ]
-      for: [ 0 ]
+      ARM: [ 0, 1 ]
+      CPUs: [ 0, 1 ]
+      CPUs.: [ 0, 1 ]
+      IAR: [ 0, 1 ]
+      compiler: [ 0, 1 ]
+      for: [ 0, 1 ]

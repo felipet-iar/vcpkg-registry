@@ -1,0 +1,25 @@
+{
+  "id": "compiler/cxarm-base",
+  "version": "9.60.4",
+  "description": "The IAR Build Tools for Arm",
+  "summary": "IAR compiler for ARM CPUs.",
+  "demands": {
+    "linux and x64": {
+      "install": {
+            "untar": "https://github.com/iarsystems/arm/releases/download/9.60.4/cxarm-9.60.4-linux-x86_64-base.tar.bz2",
+          "sha256": "0f8c8c61fd57950772760245734229ad1737ff0dd79bdb5ae443cdc74b8655c0",
+          "strip": 1
+        }
+      },
+      "not windows": {
+        "exports": {
+          "paths": {
+            "PATH": "cxarm-9.60.4/arm/bin"
+          }
+        }
+      },
+      "linux": {
+        "warning": "Ensure you have a token."
+      }
+    }
+  }

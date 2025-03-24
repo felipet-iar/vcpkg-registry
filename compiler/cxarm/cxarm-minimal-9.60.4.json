@@ -1,5 +1,5 @@
 {
-  "id": "compiler/cxarm",
+  "id": "compiler/cxarm-minimal",
   "version": "9.60.4",
   "description": "The IAR Build Tools for Arm",
   "summary": "IAR compiler for ARM CPUs.",
